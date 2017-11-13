@@ -1,0 +1,3 @@
+select *
+from credits cr join credits_sodexo sod on sod.credits = cr.id
+where  sod.id = 49702
